@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    max-width: 1200px;
+    height: 10vp;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.conteiner-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+input{
+    width: 500px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+body{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d4d6;
+}
+
+.title{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.titulo-input{
+    margin-top: 5px;
+}
+
+.cep{
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer span{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+
+form button{
+    margin: auto;
+    display: block;
+    width: 50%;
+    padding: 8px 0;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.grupo-input{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.grupo-input input{
+    display: block;
+    margin: 9px 0;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.grupo-input input:hover {
+    background-color: #eee;
+
+}
+.grupo-input input:focus-visible {
+    outline: 1px solid #09c046;
+}
+
+.error {
+    color: #B3010D;
+    padding-left: 35%;
+    padding-top: 0%;
+    padding-bottom: 5px;
+}
+
+
